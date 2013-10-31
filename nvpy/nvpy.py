@@ -109,7 +109,8 @@ class Config:
                                    os.path.join(home, 'nvpy.cfg'),
                                    os.path.join(home, '.nvpy.cfg'),
                                    os.path.join(home, '.nvpy'),
-                                   os.path.join(home, '.nvpyrc')])
+                                   os.path.join(home, '.nvpyrc'),
+                                   os.path.join(home, '.config/nvpy.ini')])
 
         cfg_sec = 'nvpy'
 
